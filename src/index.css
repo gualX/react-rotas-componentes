@@ -1,0 +1,66 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.header a {
+  font-weight: 400;
+  color: #b9b9bd;
+  text-decoration: inherit;
+}
+
+.header a:hover {
+  color: #dfdfe2;
+}
+
+a {
+  font-weight: 500;
+  color: #676768;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #1b1b1b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content:space-between;
+  padding: 0 50px;
+  background-color: rgb(78, 78, 78);
+  color: gainsboro;
+}
+
+header nav ul li {
+  list-style: none;
+  gap: 20px;
+}
+
+footer {
+  display: block;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(78, 78, 78);
+  color: gainsboro;
+}
+
+.home, .contato, .produtos {
+  height: 400px;
+  width: 1300px;
+  box-sizing: border-box; 
+  margin: 10px 20px;
+}
+
+.produto {
+  height: 453px;
+  width: 1300px;
+  box-sizing: border-box; 
+  margin: 10px 20px;
+}
+
